@@ -5,8 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    allow:
-      - dependency-name: "@mui*"
+    # allow:
+    #   - dependency-name: "@mui*"
 
     groups:
       # Only update minor and path changes that match the "@leagueplatform/*" dependency name
