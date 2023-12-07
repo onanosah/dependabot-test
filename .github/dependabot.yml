@@ -5,4 +5,15 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "15:40"
+    allow:
+      - dependency-name: "@mui*"
+
+    groups:
+      # Only update minor and path changes that match the "@leagueplatform/*" dependency name
+      # refer to https://semver.org/#summary for more on semantic versioning
+      mui:
+        patterns:
+          - "@mui*"
+        update-types:
+          - "minor"
+          - "patch"
