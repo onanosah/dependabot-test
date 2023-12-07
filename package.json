@@ -1,0 +1,19 @@
+{
+  "name": "dependabot-test",
+  "version": "1.0.0",
+  "description": "Monorepo to test dependabot changes ",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onanosah/dependabot-test.git"
+  },
+  "author": "Osah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onanosah/dependabot-test/issues"
+  },
+  "homepage": "https://github.com/onanosah/dependabot-test#readme"
+}
